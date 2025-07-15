@@ -10,5 +10,6 @@ public class PrimeNumber {
       if(num%i==0) c++;
     }
     System.out.println(c==0 ? "Prime":"Not Prime");
+    scan.close();
   }
 }
