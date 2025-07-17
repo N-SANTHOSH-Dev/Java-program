@@ -1,4 +1,8 @@
 // Rotate Problem: Rotate the elements of an array to the right by k steps.
+//  Example:
+//        Input: arr = [1,2,3,4,5,6,7], k = 3
+//        Output: [5,6,7,1,2,3,4]
+
 
 import java.util.*;
 public class RotateArray {
