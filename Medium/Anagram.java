@@ -21,5 +21,6 @@ public class Anagram{
       }
     }
     System.out.print("true");
+    scan.close();
   }
 }
