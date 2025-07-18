@@ -13,15 +13,10 @@ public class MakeZerosToLast {
     int n=scan.nextInt();
     System.out.println("Enter the array "+n+" values : ");
     int arr[]=new int[n];
-    int b=n;
     int k=0;
     for(int i=0;i<n;i++){
       int a=scan.nextInt();
-      if(a==0){
-        arr[b-1]=a;
-        b--;
-      }
-      else{
+      if(a!=0){
         arr[k]=a;
         k++;
       }
